@@ -18,6 +18,7 @@ Print number of words present in given file
 ### Step 6: 
 End of the program
 ## PROGRAM:
+```
 import sys
 count = {}
 with open(sys.argv[1], 'r') as f:
@@ -29,7 +30,7 @@ with open(sys.argv[1], 'r') as f:
                 count[word] += 1
 print(count)
 f.close()
-
+```
 ### OUTPUT:
 ![output](./Screenshot_20230126_012949.png)
 
